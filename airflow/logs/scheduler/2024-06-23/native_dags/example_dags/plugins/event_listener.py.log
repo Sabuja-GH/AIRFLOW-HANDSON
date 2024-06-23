@@ -933,3 +933,13 @@
 [2024-06-23T18:33:57.823+0000] {logging_mixin.py:188} INFO - [2024-06-23T18:33:57.823+0000] {dagbag.py:545} INFO - Filling up the DagBag from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
 [2024-06-23T18:33:57.825+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
 [2024-06-23T18:33:57.832+0000] {processor.py:183} INFO - Processing /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.015 seconds
+[2024-06-23T18:34:42.100+0000] {processor.py:161} INFO - Started process (PID=73105) to work on /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-23T18:34:42.101+0000] {processor.py:830} INFO - Processing file /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-23T18:34:42.102+0000] {logging_mixin.py:188} INFO - [2024-06-23T18:34:42.102+0000] {dagbag.py:545} INFO - Filling up the DagBag from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-23T18:34:42.103+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-23T18:34:42.111+0000] {processor.py:183} INFO - Processing /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.015 seconds
+[2024-06-23T18:35:25.002+0000] {processor.py:161} INFO - Started process (PID=73504) to work on /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-23T18:35:25.003+0000] {processor.py:830} INFO - Processing file /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-06-23T18:35:25.004+0000] {logging_mixin.py:188} INFO - [2024-06-23T18:35:25.004+0000] {dagbag.py:545} INFO - Filling up the DagBag from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-23T18:35:25.006+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-06-23T18:35:25.013+0000] {processor.py:183} INFO - Processing /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.016 seconds

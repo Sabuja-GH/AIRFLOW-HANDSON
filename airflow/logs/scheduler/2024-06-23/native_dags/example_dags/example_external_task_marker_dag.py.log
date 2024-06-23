@@ -1014,3 +1014,11 @@
 [2024-06-23T18:33:48.145+0000] {logging_mixin.py:188} INFO - [2024-06-23T18:33:48.145+0000] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
 [2024-06-23T18:33:48.148+0000] {logging_mixin.py:188} INFO - [2024-06-23T18:33:48.147+0000] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
 [2024-06-23T18:33:48.190+0000] {processor.py:183} INFO - Processing /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.078 seconds
+[2024-06-23T18:34:54.515+0000] {processor.py:161} INFO - Started process (PID=73261) to work on /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-06-23T18:34:54.516+0000] {processor.py:830} INFO - Processing file /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-06-23T18:34:54.517+0000] {logging_mixin.py:188} INFO - [2024-06-23T18:34:54.517+0000] {dagbag.py:545} INFO - Filling up the DagBag from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-06-23T18:34:54.522+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-06-23T18:34:54.535+0000] {logging_mixin.py:188} INFO - [2024-06-23T18:34:54.535+0000] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-06-23T18:34:54.545+0000] {logging_mixin.py:188} INFO - [2024-06-23T18:34:54.544+0000] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-06-23T18:34:54.547+0000] {logging_mixin.py:188} INFO - [2024-06-23T18:34:54.547+0000] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-06-23T18:34:54.587+0000] {processor.py:183} INFO - Processing /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.076 seconds
