@@ -1,0 +1,21 @@
+[2024-06-23T20:11:28.098+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-23T20:11:28.123+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: newdag.task1 manual__2024-06-23T20:11:24.333743+00:00 [queued]>
+[2024-06-23T20:11:28.127+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: newdag.task1 manual__2024-06-23T20:11:24.333743+00:00 [queued]>
+[2024-06-23T20:11:28.127+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-23T20:11:28.161+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): task1> on 2024-06-23 20:11:24.333743+00:00
+[2024-06-23T20:11:28.165+0000] {standard_task_runner.py:63} INFO - Started process 116819 to run task
+[2024-06-23T20:11:28.168+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'newdag', 'task1', 'manual__2024-06-23T20:11:24.333743+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/new.py', '--cfg-path', '/tmp/tmp6cm8yiw7']
+[2024-06-23T20:11:28.169+0000] {standard_task_runner.py:91} INFO - Job 13: Subtask task1
+[2024-06-23T20:11:28.218+0000] {task_command.py:426} INFO - Running <TaskInstance: newdag.task1 manual__2024-06-23T20:11:24.333743+00:00 [running]> on host codespaces-ee93ac
+[2024-06-23T20:11:28.324+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Vinoo' AIRFLOW_CTX_DAG_ID='newdag' AIRFLOW_CTX_TASK_ID='task1' AIRFLOW_CTX_EXECUTION_DATE='2024-06-23T20:11:24.333743+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-23T20:11:24.333743+00:00'
+[2024-06-23T20:11:28.325+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-23T20:11:28.326+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-23T20:11:28.327+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "Task 1: sleeping"; sleep 5']
+[2024-06-23T20:11:28.335+0000] {subprocess.py:86} INFO - Output:
+[2024-06-23T20:11:28.336+0000] {subprocess.py:93} INFO - Task 1: sleeping
+[2024-06-23T20:11:33.338+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-23T20:11:33.338+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-23T20:11:33.377+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=newdag, task_id=task1, run_id=manual__2024-06-23T20:11:24.333743+00:00, execution_date=20240623T201124, start_date=20240623T201128, end_date=20240623T201133
+[2024-06-23T20:11:33.451+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-23T20:11:33.461+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-06-23T20:11:33.490+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

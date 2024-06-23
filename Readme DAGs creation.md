@@ -35,7 +35,7 @@ task1 = BashOperator(
 
     python -W ignore /workspaces/AIRFLOW-HANDSON/airflow/dags/one_task_dag.py (-W inores the warnings)
 
-sometimes dag wont show because of scheduler issue, then use code " $ airflow scheduler" (Start the scheduler without daemon mode)
+sometimes dag wont show because of scheduler issue, then use code " $ airflow scheduler" (Start the scheduler without daemon mode). Then run other cmds in differnet termial. to close the scheduler use ctrl+c. 
 
 **Now dag will be shown in webserver, friom there run it there.once dag run co,pleted successfully we can check i fthe text file has been generated or not.**
 

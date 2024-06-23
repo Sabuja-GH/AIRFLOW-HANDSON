@@ -1,0 +1,34 @@
+[2024-06-23T20:14:19.173+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-23T20:14:19.192+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: newdag.task1 manual__2024-06-23T20:14:16.742209+00:00 [queued]>
+[2024-06-23T20:14:19.197+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: newdag.task1 manual__2024-06-23T20:14:16.742209+00:00 [queued]>
+[2024-06-23T20:14:19.197+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-23T20:14:19.240+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): task1> on 2024-06-23 20:14:16.742209+00:00
+[2024-06-23T20:14:19.244+0000] {standard_task_runner.py:63} INFO - Started process 118463 to run task
+[2024-06-23T20:14:19.247+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'newdag', 'task1', 'manual__2024-06-23T20:14:16.742209+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/new.py', '--cfg-path', '/tmp/tmpiclamjy9']
+[2024-06-23T20:14:19.248+0000] {standard_task_runner.py:91} INFO - Job 16: Subtask task1
+[2024-06-23T20:14:19.296+0000] {task_command.py:426} INFO - Running <TaskInstance: newdag.task1 manual__2024-06-23T20:14:16.742209+00:00 [running]> on host codespaces-ee93ac
+[2024-06-23T20:14:19.391+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Vinoo' AIRFLOW_CTX_DAG_ID='newdag' AIRFLOW_CTX_TASK_ID='task1' AIRFLOW_CTX_EXECUTION_DATE='2024-06-23T20:14:16.742209+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-23T20:14:16.742209+00:00'
+[2024-06-23T20:14:19.393+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-23T20:14:19.393+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-23T20:14:19.394+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "Task 1: sleeping" && sleep 5s && "hello"']
+[2024-06-23T20:14:19.402+0000] {subprocess.py:86} INFO - Output:
+[2024-06-23T20:14:19.403+0000] {subprocess.py:93} INFO - Task 1: sleeping
+[2024-06-23T20:14:24.405+0000] {subprocess.py:93} INFO - /usr/bin/bash: hello: command not found
+[2024-06-23T20:14:24.405+0000] {subprocess.py:97} INFO - Command exited with return code 127
+[2024-06-23T20:14:24.406+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-23T20:14:24.411+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2024-06-23T20:14:24.413+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=newdag, task_id=task1, run_id=manual__2024-06-23T20:14:16.742209+00:00, execution_date=20240623T201416, start_date=20240623T201419, end_date=20240623T201424
+[2024-06-23T20:14:24.449+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 16 for task task1 (Bash command failed. The command returned a non-zero exit code 127.; 118463)
+[2024-06-23T20:14:24.484+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-23T20:14:24.495+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-23T20:14:24.524+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
