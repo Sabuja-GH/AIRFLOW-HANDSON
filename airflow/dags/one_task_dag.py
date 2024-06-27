@@ -5,7 +5,7 @@ from airflow import DAG
 
 # Define default arguments for the DAG
 default_args = {
-    'owner': 'Vinoo',
+    'owner': 'Sabuja',
     'depends_on_past': False,
     'email_on_failure': False,
     'email_on_retry': False,
@@ -27,4 +27,3 @@ task1 = BashOperator(
         bash_command='echo "Hello, LinkedIn Learning!" > /workspaces/AIRFLOW-HANDSON/airflow/lab/files/one_task_dag.txt',
         dag=dag
     )
-

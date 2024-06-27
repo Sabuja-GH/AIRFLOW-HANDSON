@@ -40,3 +40,8 @@ sometimes dag wont show because of scheduler issue, then use code " $ airflow sc
 **Now dag will be shown in webserver, friom there run it there.once dag run co,pleted successfully we can check i fthe text file has been generated or not.**
 
     cat /workspaces/AIRFLOW-HANDSON/airflow/lab/files/one_task_dag.txt
+
+    TWO task dag++
+
+    bash_command='echo "sleeping...." ; sleep 5; echo "second task complete!"' , - outputs txt 'sleeping..', then sleeps for 5 sec, then outputs 'second task complete!'
+    task1 >> task2 - task 2 is made dependant on task 1 i.e, once task 1 is completed only then task 2 willl run

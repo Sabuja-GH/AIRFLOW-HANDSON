@@ -1,15 +1,133 @@
-2024-06-23 16:05:44,899 INFO - Task context logging is enabled
-2024-06-23 16:05:44,900 INFO - Loaded executor: SequentialExecutor
-2024-06-23 16:05:44,981 INFO - Starting the scheduler
-2024-06-23 16:05:44,982 INFO - Processing each file at most -1 times
-2024-06-23 16:05:44,990 INFO - Launched DagFileProcessorManager with pid: 7448
-2024-06-23 16:05:44,992 INFO - Adopting or resetting orphaned tasks for active dag runs
-2024-06-23 16:05:44,994 INFO - Configured default timezone UTC
-2024-06-23 16:07:38,920 INFO - Exiting gracefully upon receiving signal 15
-2024-06-23 16:07:39,925 INFO - Sending Signals.SIGTERM to group 7448. PIDs of all processes in the group: [7448]
-2024-06-23 16:07:39,925 INFO - Sending the signal Signals.SIGTERM to group 7448
-2024-06-23 16:07:40,104 INFO - Process psutil.Process(pid=7448, status='terminated', exitcode=0, started='16:05:44') (7448) terminated with exit code 0
-2024-06-23 16:07:40,106 INFO - Sending Signals.SIGTERM to group 7448. PIDs of all processes in the group: []
-2024-06-23 16:07:40,106 INFO - Sending the signal Signals.SIGTERM to group 7448
-2024-06-23 16:07:40,107 INFO - Sending the signal Signals.SIGTERM to process 7448 as process group is missing.
-2024-06-23 16:07:40,107 INFO - Exited execute loop
+2024-06-27 19:38:12,188 INFO - Task context logging is enabled
+2024-06-27 19:38:12,189 INFO - Loaded executor: SequentialExecutor
+2024-06-27 19:38:12,261 INFO - Starting the scheduler
+2024-06-27 19:38:12,261 INFO - Processing each file at most -1 times
+2024-06-27 19:38:12,275 INFO - Launched DagFileProcessorManager with pid: 11904
+2024-06-27 19:38:12,277 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 19:38:12,289 INFO - Configured default timezone UTC
+2024-06-27 19:38:18,767 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-IN,en-US;q=0.9,en;q=0.8
+Cache-Control: max-age=0
+Referer: https://github.com/
+X-Request-Id: 6c330d825d31721fe6ecc4b9960ecfc9
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: stunning-fishstick-xqwq546x6553p5pw-8793.app.github.dev
+X-Forwarded-For: 10.240.0.10
+Proxy-Connection: Keep-Alive
+
+.
+2024-06-27 19:38:19,375 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-IN,en-US;q=0.9,en;q=0.8
+Referer: https://stunning-fishstick-xqwq546x6553p5pw-8793.app.github.dev/
+X-Request-Id: 6c46f905a4c1f567e7a5bbe9efd9a6da
+X-Real-Ip: 10.240.0.10
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: stunning-fishstick-xqwq546x6553p5pw-8793.app.github.dev
+X-Forwarded-For: 10.240.0.10
+Proxy-Connection: Keep-Alive
+
+.
+2024-06-27 19:39:35,228 INFO - Exiting gracefully upon receiving signal 15
+2024-06-27 19:39:36,231 INFO - Sending Signals.SIGTERM to group 11904. PIDs of all processes in the group: [11904]
+2024-06-27 19:39:36,231 INFO - Sending the signal Signals.SIGTERM to group 11904
+2024-06-27 19:39:36,408 INFO - Process psutil.Process(pid=11904, status='terminated', exitcode=0, started='19:38:11') (11904) terminated with exit code 0
+2024-06-27 19:39:36,409 INFO - Sending Signals.SIGTERM to group 11904. PIDs of all processes in the group: []
+2024-06-27 19:39:36,410 INFO - Sending the signal Signals.SIGTERM to group 11904
+2024-06-27 19:39:36,410 INFO - Sending the signal Signals.SIGTERM to process 11904 as process group is missing.
+2024-06-27 19:39:36,410 INFO - Exited execute loop
+2024-06-27 19:39:57,073 INFO - Task context logging is enabled
+2024-06-27 19:39:57,075 INFO - Loaded executor: SequentialExecutor
+2024-06-27 19:39:57,143 INFO - Starting the scheduler
+2024-06-27 19:39:57,143 INFO - Processing each file at most -1 times
+2024-06-27 19:39:57,148 INFO - Launched DagFileProcessorManager with pid: 13014
+2024-06-27 19:39:57,150 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 19:39:57,153 INFO - Configured default timezone UTC
+2024-06-27 19:44:57,577 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 19:45:26,572 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2024-06-27T19:45:25.019212+00:00 [scheduled]>
+2024-06-27 19:45:26,572 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2024-06-27 19:45:26,572 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2024-06-27T19:45:25.019212+00:00 [scheduled]>
+2024-06-27 19:45:26,574 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-06-27T19:45:25.019212+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-06-27 19:45:26,575 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-06-27T19:45:25.019212+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-06-27 19:45:26,600 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2024-06-27T19:45:25.019212+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2024-06-27 19:45:29,406 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2024-06-27T19:45:25.019212+00:00', try_number=1, map_index=-1)
+2024-06-27 19:45:29,415 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2024-06-27T19:45:25.019212+00:00, map_index=-1, run_start_date=2024-06-27 19:45:28.736311+00:00, run_end_date=2024-06-27 19:45:28.975594+00:00, run_duration=0.239283, state=success, executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-06-27 19:45:26.573465+00:00, queued_by_job_id=2, pid=15716
+2024-06-27 19:45:29,610 INFO - Marking run <DagRun one_task_dag @ 2024-06-27 19:45:25.019212+00:00: manual__2024-06-27T19:45:25.019212+00:00, state:running, queued_at: 2024-06-27 19:45:25.064024+00:00. externally triggered: True> successful
+2024-06-27 19:45:29,611 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2024-06-27 19:45:25.019212+00:00, run_id=manual__2024-06-27T19:45:25.019212+00:00, run_start_date=2024-06-27 19:45:26.501017+00:00, run_end_date=2024-06-27 19:45:29.611030+00:00, run_duration=3.110013, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-06-27 19:45:25.019212+00:00, data_interval_end=2024-06-27 19:45:25.019212+00:00, dag_hash=7489e39bf97f5a299c0767774673ccf4
+2024-06-27 19:49:57,971 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 19:50:42,145 INFO - 1 tasks up for execution:
+	<TaskInstance: Two_task_dag.one_task manual__2024-06-27T19:50:41.387158+00:00 [scheduled]>
+2024-06-27 19:50:42,146 INFO - DAG Two_task_dag has 0/16 running and queued tasks
+2024-06-27 19:50:42,146 INFO - Setting the following tasks to queued state:
+	<TaskInstance: Two_task_dag.one_task manual__2024-06-27T19:50:41.387158+00:00 [scheduled]>
+2024-06-27 19:50:42,150 INFO - Sending TaskInstanceKey(dag_id='Two_task_dag', task_id='one_task', run_id='manual__2024-06-27T19:50:41.387158+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-06-27 19:50:42,150 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'Two_task_dag', 'one_task', 'manual__2024-06-27T19:50:41.387158+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-06-27 19:50:42,200 INFO - Executing command: ['airflow', 'tasks', 'run', 'Two_task_dag', 'one_task', 'manual__2024-06-27T19:50:41.387158+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-06-27 19:50:45,106 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='Two_task_dag', task_id='one_task', run_id='manual__2024-06-27T19:50:41.387158+00:00', try_number=1, map_index=-1)
+2024-06-27 19:50:45,111 INFO - TaskInstance Finished: dag_id=Two_task_dag, task_id=one_task, run_id=manual__2024-06-27T19:50:41.387158+00:00, map_index=-1, run_start_date=2024-06-27 19:50:44.365081+00:00, run_end_date=2024-06-27 19:50:44.692243+00:00, run_duration=0.327162, state=success, executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2024-06-27 19:50:42.147459+00:00, queued_by_job_id=2, pid=18171
+2024-06-27 19:50:45,305 INFO - 1 tasks up for execution:
+	<TaskInstance: Two_task_dag.Two_task manual__2024-06-27T19:50:41.387158+00:00 [scheduled]>
+2024-06-27 19:50:45,306 INFO - DAG Two_task_dag has 0/16 running and queued tasks
+2024-06-27 19:50:45,306 INFO - Setting the following tasks to queued state:
+	<TaskInstance: Two_task_dag.Two_task manual__2024-06-27T19:50:41.387158+00:00 [scheduled]>
+2024-06-27 19:50:45,308 INFO - Sending TaskInstanceKey(dag_id='Two_task_dag', task_id='Two_task', run_id='manual__2024-06-27T19:50:41.387158+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-06-27 19:50:45,308 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'Two_task_dag', 'Two_task', 'manual__2024-06-27T19:50:41.387158+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-06-27 19:50:45,335 INFO - Executing command: ['airflow', 'tasks', 'run', 'Two_task_dag', 'Two_task', 'manual__2024-06-27T19:50:41.387158+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2024-06-27 19:50:53,109 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='Two_task_dag', task_id='Two_task', run_id='manual__2024-06-27T19:50:41.387158+00:00', try_number=1, map_index=-1)
+2024-06-27 19:50:53,113 INFO - TaskInstance Finished: dag_id=Two_task_dag, task_id=Two_task, run_id=manual__2024-06-27T19:50:41.387158+00:00, map_index=-1, run_start_date=2024-06-27 19:50:47.382876+00:00, run_end_date=2024-06-27 19:50:52.644629+00:00, run_duration=5.261753, state=success, executor_state=success, try_number=1, max_tries=0, job_id=5, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-06-27 19:50:45.307063+00:00, queued_by_job_id=2, pid=18194
+2024-06-27 19:50:53,299 INFO - Marking run <DagRun Two_task_dag @ 2024-06-27 19:50:41.387158+00:00: manual__2024-06-27T19:50:41.387158+00:00, state:running, queued_at: 2024-06-27 19:50:41.446405+00:00. externally triggered: True> successful
+2024-06-27 19:50:53,299 INFO - DagRun Finished: dag_id=Two_task_dag, execution_date=2024-06-27 19:50:41.387158+00:00, run_id=manual__2024-06-27T19:50:41.387158+00:00, run_start_date=2024-06-27 19:50:42.069831+00:00, run_end_date=2024-06-27 19:50:53.299846+00:00, run_duration=11.230015, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-06-27 19:50:41.387158+00:00, data_interval_end=2024-06-27 19:50:41.387158+00:00, dag_hash=47575a1aa20ee01bc3a64cc772ade900
+2024-06-27 19:54:58,132 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 19:59:58,293 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 20:04:58,453 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 20:09:58,612 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 20:14:58,773 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 20:19:58,933 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 20:24:59,092 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 20:29:59,251 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 20:34:59,411 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 20:39:59,497 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 20:44:59,656 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 20:49:59,815 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 20:54:59,891 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 21:00:00,055 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 21:05:00,075 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 21:10:00,335 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 21:15:00,525 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 21:20:00,607 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 21:25:00,796 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 21:30:01,059 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 21:35:01,267 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-06-27 21:40:01,341 INFO - Adopting or resetting orphaned tasks for active dag runs

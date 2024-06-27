@@ -1,0 +1,22 @@
+[2024-06-27T19:50:47.361+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-27T19:50:47.382+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Two_task_dag.Two_task manual__2024-06-27T19:50:41.387158+00:00 [queued]>
+[2024-06-27T19:50:47.386+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Two_task_dag.Two_task manual__2024-06-27T19:50:41.387158+00:00 [queued]>
+[2024-06-27T19:50:47.387+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-06-27T19:50:47.434+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): Two_task> on 2024-06-27 19:50:41.387158+00:00
+[2024-06-27T19:50:47.438+0000] {standard_task_runner.py:63} INFO - Started process 18194 to run task
+[2024-06-27T19:50:47.441+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'Two_task_dag', 'Two_task', 'manual__2024-06-27T19:50:41.387158+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/two_task_dag.py', '--cfg-path', '/tmp/tmpoowv750s']
+[2024-06-27T19:50:47.442+0000] {standard_task_runner.py:91} INFO - Job 5: Subtask Two_task
+[2024-06-27T19:50:47.495+0000] {task_command.py:426} INFO - Running <TaskInstance: Two_task_dag.Two_task manual__2024-06-27T19:50:41.387158+00:00 [running]> on host codespaces-ee93ac
+[2024-06-27T19:50:47.589+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Sabuja' AIRFLOW_CTX_DAG_ID='Two_task_dag' AIRFLOW_CTX_TASK_ID='Two_task' AIRFLOW_CTX_EXECUTION_DATE='2024-06-27T19:50:41.387158+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-27T19:50:41.387158+00:00'
+[2024-06-27T19:50:47.590+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-27T19:50:47.591+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-06-27T19:50:47.592+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "sleeping...." ; sleep 5; echo "second task complete!"']
+[2024-06-27T19:50:47.603+0000] {subprocess.py:86} INFO - Output:
+[2024-06-27T19:50:47.606+0000] {subprocess.py:93} INFO - sleeping....
+[2024-06-27T19:50:52.608+0000] {subprocess.py:93} INFO - second task complete!
+[2024-06-27T19:50:52.608+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-06-27T19:50:52.609+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-27T19:50:52.644+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=Two_task_dag, task_id=Two_task, run_id=manual__2024-06-27T19:50:41.387158+00:00, execution_date=20240627T195041, start_date=20240627T195047, end_date=20240627T195052
+[2024-06-27T19:50:52.721+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-27T19:50:52.728+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-27T19:50:52.729+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
